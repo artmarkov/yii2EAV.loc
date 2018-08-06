@@ -11,11 +11,6 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [
-        'eav' => [
-            'class' => '\mirocow\eav\Module',
-        ],
-    ],
     'components' => [
         'assetManager' => [
             'bundles' => [
@@ -49,23 +44,6 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        'i18n' => [
-            'translations' => [
-                'app*' => [
-                    'class' => 'yii\i18n\PhpMessageSource',
-                    //'basePath' => '@app/messages',
-                    //'sourceLanguage' => 'en-US',
-                    'fileMap' => [
-                        'app' => 'app.php',
-                        'app/error' => 'error.php',
-                    ],
-                ],
-                'eav' => [
-                    'class' => 'yii\i18n\PhpMessageSource',
-                    'basePath' => '@mirocow/eav/messages',
-                ],
-            ],
-        ]
     ],
 
     'params' => $params,
