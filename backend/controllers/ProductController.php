@@ -55,7 +55,7 @@ class ProductController extends Controller
 
     public function actionIndex()
     {
-        $model = new \backend\models\Product();
+        $model = new \common\models\Product();
         return $this->render('index', ['model' => $model]);
     }
 }

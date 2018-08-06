@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Product */
 /* @var $form yii\widgets\ActiveForm */
-echo '<pre>' . print_r($model->getEavAttributes()->all(), true) . '</pre>';
+//echo '<pre>' . print_r($model->getEavAttributes()->all(), true) . '</pre>';
 ?>
 <div class="product-form">
 

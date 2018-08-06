@@ -33,6 +33,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'product_name',
             'visible',
+            'c1',
+            'c80',
         ],
     ]) ?>
     <table class="table">

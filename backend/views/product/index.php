@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 
 $this->title = 'My Yii Application';
-//echo '<pre>' . print_r($model, true) . '</pre>';
+echo '<pre>' . print_r($model, true) . '</pre>';
 ?>
 <div class="site-index">
 
@@ -11,7 +11,7 @@ $this->title = 'My Yii Application';
         'model' => $model,
         'categoryId' => $model->id,
         'entityName' => 'Продукт',
-        'entityModel' => 'backend\models\Product', // ваша модель для которой подключено расширение
+        'entityModel' => 'common\models\Product', // ваша модель для которой подключено расширение
     ])?>
 
 </div>
